@@ -1,0 +1,115 @@
+header {
+  padding: 50px 20px 40px 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 800;
+}
+
+header h3 {
+  font-size: 1.5em;
+}
+
+#header-links {
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#header-links > a {
+  display: inline-block;
+  text-align: center;
+  min-width: 70px;
+  color: #4a4a4a;
+}
+
+#header-links > a > small {
+  display: block;
+  font-size: 14px;
+}
+
+#header-links > a:before {
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+a.header-faq:before {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icons/faq.png);
+}
+
+a.header-specs:before {
+  width: 22px;
+  height: 25px;
+  background-image: url(../img/icons/specs.png);
+}
+
+a.header-github:before {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icons/github.png);
+}
+
+a.header-group:before {
+  width: 25px;
+  height: 19px;
+  margin-bottom: 3px;
+  background-image: url(../img/icons/email.png);
+}
+
+a.header-gitter:before {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icons/gitter.png);
+}
+
+
+#logo {
+  margin: 0 auto;
+}
+
+#logo-box {
+  text-align: center;
+}
+
+#title-box {
+  text-align: center;
+  margin-top: 2.2em;
+}
+
+.section-header {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.syntax-example {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  padding: 0.25em;
+  font-size: 1.25em;
+  font-weight: bold;
+  border: 1px solid #eeeeee;
+}
+
+.syntax-invalid {
+  background-color: #ffcccc;
+  border: 1px solid #ffbbbb;
+}
+
+@media only screen and (min-width : 768px) {
+  .syntax-example {
+    font-size: 1.75em;
+    margin-left: 0.5em;
+  }
+}
+
+.syntax-example .tag-prefix {
+  color: #ba160c;
+  padding: 0 2px;
+}

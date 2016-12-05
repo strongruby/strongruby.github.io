@@ -1,0 +1,10 @@
+title: "StrongRuby: Optional types for Ruby"
+email: strongruby@googlegroups.com
+description: >
+  StrongRuby is an optional static type system for the Ruby programming language.
+baseurl: ""
+url: "https://www.strongruby.org"
+github_username: strongruby
+
+# Build settings
+markdown: kramdown
